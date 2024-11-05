@@ -1,0 +1,50 @@
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #f5d04e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+}
+
+section {
+  border-radius: 25px;
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px black;
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+}
+
+.fit {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bg {
+  border-radius: 6px;
+  background-color: #f5d04e;
+  width: fit-content;
+  padding: 5px 8px;
+  font-weight: bold;
+}
+
+.wrapper-avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bold {
+    font-weight: bold;    
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+.font-size-small {
+    font-size: 14px;
+    line-height: 150%;
+}
